@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Ezzahar Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body style="background-image: url('images/pexels-d-ng-nhan-324384-1529881.jpg'); background-size: cover; background-position: center;">
+    <header style="background-image: url('images/pexels-chiecharon-689451.jpg'); background-size: cover; background-position: center;">
+        <h1 id="Mohammed Ezzahar Portfolio">Mohammed Ezzahar Portfolio</h1>
+        <h1 id="typing-effect"></h1>
+        <div id="loader">
+            <div class="spinner"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="about-container">
+                <div class="profile-photo">
+                    <img src="images/IMG_20231010_194509_126.jpg" alt="Mohammed Ezzahar" id="profile-img">
+                </div>
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <p>Welcome! I am Mohammed Ezzahar, a data scientist and engineer with a passion for economics, finance, and data science. Here you can find my data science projects and learn more about my work.</p>
+                    <a href="#" class="cv-button">My CV</a>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-database skill-icon"></i>
+                    <span class="skill-name">Data Science</span>
+                    <div class="skill-level" data-level="95"></div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-briefcase skill-icon"></i>
+                    <span class="skill-name">Business Strategy</span>
+                    <div class="skill-level" data-level="85"></div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-robot skill-icon"></i>
+                    <span class="skill-name">Machine Learning</span>
+                    <div class="skill-level" data-level="90"></div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <span class="skill-name">Deep Learning</span>
+                    <div class="skill-level" data-level="85"></div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-comment-alt skill-icon"></i>
+                    <span class="skill-name">Natural Language Processing</span>
+                    <div class="skill-level" data-level="80"></div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-eye skill-icon"></i>
+                    <span class="skill-name">Computer Vision</span>
+                    <div class="skill-level" data-level="85"></div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python skill-icon"></i>
+                    <span class="skill-name">Python</span>
+                    <div class="skill-level" data-level="95"></div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-chart-line skill-icon"></i>
+                    <span class="skill-name">Econometrics</span>
+                    <div class="skill-level" data-level="90"></div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-file-invoice-dollar skill-icon"></i>
+                    <span class="skill-name">Financial Modeling</span>
+                    <div class="skill-level" data-level="85"></div>
+                </div>
+            </div>
+        </section>
+        <section id="project-filters">
+            <h2>Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="data-science">Data Science</button>
+                <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+                <button class="filter-btn" data-filter="finance">Finance</button>
+                <button class="filter-btn" data-filter="economics">Economics</button>
+            </div>
+        </section>
+        <div class="projects">
+            <div class="project data-science machine-learning">
+                <i class="fas fa-robot project-icon"></i>
+                <img src="images/pexels-googledeepmind-17485680.jpg" alt="Project 1">
+                <h3>Recommender System using Transformers and Multi-Modal Data</h3>
+                <p>Implemented a recommender system using transformers and multi-modal data to enhance user recommendations.</p>
+            </div>
+            <div class="project finance economics">
+                <i class="fas fa-language project-icon"></i>
+                <img src="images/pexels-googledeepmind-17485678.jpg" alt="Project 2">
+                <h3>Data Science Dashboard</h3>
+                <p>Developed an interactive dashboard using Python and Dash to visualize complex data sets for business analytics.</p>
+            </div>
+            <div class="project">
+                <i class="fas fa-camera project-icon"></i>
+                <img src="images/pexels-pixabay-207580.jpg" alt="Project 3">
+                <h3>AI-Powered Financial Analysis</h3>
+                <p>Implemented machine learning algorithms to predict stock market trends and automate financial reports.</p>
+            </div>
+            <div class="project">
+                <i class="fas fa-language project-icon"></i>
+                <img src="images/pexels-markusspiske-2061168.jpg" alt="Project 4">
+                <h3>Natural Language Processing Model for Text Generation</h3>
+                <p>Developed a natural language processing model for text generation and embedding, improving text analysis capabilities.</p>
+            </div>
+            <div class="project">
+                <i class="fas fa-camera project-icon"></i>
+                <img src="images/pexels-googledeepmind-17485705.jpg" alt="Project 5">
+                <h3>Computer Vision Project for Image and Video Processing</h3>
+                <p>Created a computer vision project for image and video processing, enhancing multimedia analysis.</p>
+            </div>
+            <div class="project">
+                <i class="fas fa-brain project-icon"></i>
+                <img src="images/25a9f748229f7df65b4a498efe2034d1.jpg" alt="Project 6">
+                <h3>Reinforcement Learning Model for Preference-Based Learning</h3>
+                <p>Built a reinforcement learning model for preference-based learning, optimizing user experiences through AI.</p>
+            </div>
+        </div>
+        <section id="videos">
+            <h2> Videos</h2>
+            <div class="video-container">
+                <div class="video-item">
+                    <h3>Introduction to Data Science</h3>
+                    <a href="https://www.youtube.com/watch?v=example1" target="_blank">
+                        <img src="images/6ee918d6bad713109da451d783c45126.jpg" alt="Introduction to Data Science">
+                    </a>
+                    <p>An overview of the fundamentals of data science, including data analysis, visualization, and the data science workflow.</p>
+                </div>
+                <div class="video-item">
+                    <h3>Machine Learning Basics</h3>
+                    <a href="https://www.youtube.com/watch?v=example2" target="_blank">
+                        <img src="images/a7789aae63c28dedfa7130fb585f5eb7.jpg" alt="Machine Learning Basics">
+                    </a>
+                    <p>A comprehensive introduction to machine learning concepts, algorithms, and practical applications in various industries.</p>
+                </div>
+                <div class="video-item">
+                    <h3>Data Visualization Techniques</h3>
+                    <a href="https://www.youtube.com/watch?v=example5" target="_blank">
+                        <img src="images/data-visualization.jpg" alt="Data Visualization Techniques">
+                    </a>
+                    <p>Explore advanced data visualization techniques to effectively communicate insights and patterns in complex datasets.</p>
+                </div>
+                <div class="video-item">
+                    <h3>AI Ethics and Responsible AI</h3>
+                    <a href="https://www.youtube.com/watch?v=example6" target="_blank">
+                        <img src="images/ai-ethics.jpg" alt="AI Ethics and Responsible AI">
+                    </a>
+                    <p>Discuss the ethical considerations in AI development and implementation, focusing on responsible AI practices and their societal impact.</p>
+                </div>
+                <div class="video-item">
+                    <h3>Advanced Data Analysis</h3>
+                    <a href="https://www.youtube.com/watch?v=example3" target="_blank">
+                        <img src="images/87317145b9d4d16891f196c6eee41b51.jpg" alt="Advanced Data Analysis">
+                    </a>
+                    <p>Deep dive into advanced techniques in data analysis, focusing on complex data sets and sophisticated methods for gaining insights.</p>
+                </div>
+                <div class="video-item">
+                    <h3>Data Science in Practice</h3>
+                    <a href="https://www.youtube.com/watch?v=example4" target="_blank">
+                        <img src="images/7797fca87154f8d93a02e3506d6fb9ee.jpg" alt="Data Science in Practice">
+                    </a>
+                    <p>Real-world applications of data science, showcasing how data-driven solutions are implemented in various fields and industries.</p>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <div class="achievement-container">
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <img src="images/6d207df829f8bc111bd19d95394bd5fe.jpg" alt="Award Icon">
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Top Data Science Competition Winner</h3>
+                        <p>Recognized for outstanding performance in the annual Data Science Global Challenge. Awarded first place among 500+ participants.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <img src="images/7ee87e6b96acf0f9adf5f8a0ccf66304.jpg" alt="Research Icon">
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Published Research Paper</h3>
+                        <p>Co-authored a research paper on "Advanced Machine Learning Techniques in Financial Forecasting" published in a leading data science journal.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <img src="images/7ee87e6b96acf0f9adf5f8a0ccf66304.jpg" alt="Mentorship Icon">
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Data Science Mentorship Program</h3>
+                        <p>Led a mentorship program for aspiring data scientists, guiding 20+ students through complex projects and career development.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <img src="images/7ee87e6b96acf0f9adf5f8a0ccf66304.jpg" alt="Certificate Icon">
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Certified Data Scientist</h3>
+                        <p>Earned a certification in Data Science from XYZ University, demonstrating expertise in machine learning, statistical analysis, and data visualization.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <img src="images/7ee87e6b96acf0f9adf5f8a0ccf66304.jpg" alt="Conference Icon">
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Speaker at Tech Conference</h3>
+                        <p>Presented research on the application of AI in finance at the International Tech Conference 2023. Received positive feedback and networked with industry experts.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <img src="images/7ee87e6b96acf0f9adf5f8a0ccf66304.jpg" alt="Innovation Icon">
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Innovative Project Award</h3>
+                        <p>Recognized for developing a novel approach to data visualization, improving user engagement and insights extraction.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name"><i class="fas fa-user"></i> Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message"><i class="fas fa-comment"></i> Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </section>
+    </main>
+    <footer style="background-image: url('images/pexels-lastly-418626.jpg'); background-size: cover; background-position: center;">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> email@example.com</p>
+                <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <ul class="social-links">
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Mohammed Ezzahar. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        window.addEventListener('load', function() {
+            var loader = document.getElementById('loader');
+            loader.style.display = 'none';
+        });
+
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Form validation and submission logic here
+        }); <
+        button id = "scroll-to-top"
+        title = "Go to top" > ↑ < /button>
+    </script>
+</body>
+
+</html>
